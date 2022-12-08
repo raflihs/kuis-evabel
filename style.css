@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Quicksand&family=Silkscreen&display=swap');
+
+
+*{
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+body{
+    background-color: rgb(255, 252, 233);
+}
+
+.box-container{
+    height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container{
+    text-align: justify;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+}
+
+.text-name{
+    margin: 10px 30px 10px 0;
+    text-align: right;
+}
+
+.quiz-container h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.em;
+}
+
+.quiz-poin{
+    padding:2em;
+}
+
+
+.quiz-poin ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.quiz-poin ul li label {
+    padding-left: 5px;
+}
+
+#question{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.answer{
+    font-size: 1.2em;
+}
+
+.btn-submit{
+    width:100%;
+    cursor: pointer;
+}
+
+.btn-login{
+    width: 25%;
+    padding: 3px;
+    float:right;
+    margin: 5px 15px 10px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #42A5F5;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-login:hover {
+    background-color: #3284c6;
+}
+
+.btn-register{
+    width: 25%;
+    padding: 3px;
+    float:left;
+    margin: 5px 15px 10px 13px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #9db0c0;
+    color: white;
+    cursor: pointer;
+}
+.btn-register:hover{
+    background-color: #b6bcc0;
+}
+
+#submit:hover{
+    background-color: rgb(3, 3, 210);
+}
+
+.btn-primary {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(64, 64, 255);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box {
+    width: 20%;
+    padding: 5px;
+    background-color:white;
+    margin-bottom: 15px;   
+}
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.col-10 {
+    display: flex;
+    width: 9.23%;
+    float:left;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: rgb(255, 252, 233);
+    cursor: pointer;
+    margin: 0 2px;
+}
+.col-10:hover{
+    background-color: white;
+}
+
+.input-control {
+    width: 90%;
+    padding: 5px;
+    margin: 5px 13px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.form-input {
+    width: 80%;
+    padding: 5px;
+    margin: 10px 60px;
+
+}
+
+.container-nav {
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    background-color:#FD841F;
+    top: 0;
+}
+.container-nav h2 {
+    float: left;
+    padding: 10px 20px;
+}
+.container-nav ul{
+    float: right;
+    padding: 13px 40px;
+}
+.container-nav li {
+    padding: 5px 10px;
+    display: inline-block;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 10px;
+    font-size: 1em;
+}
+
+.section{
+    padding: 25px 40px;
+}
+
+.container{
+    width: 80%;
+    margin:70px auto;
+}
+
+.box {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tr{
+    height: 30px;
+}
+.table tr td {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.input-form {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.input-submit {
+    width: 100%;
+    margin-top: 10px;
+    padding: 4px;
+    background-color: #FD841F;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.input-submit:hover{
+    background-color: rgb(25, 131, 236);
+    transition: ease-in-out .2s;
+    color: white;
+}
+
+footer{
+    padding: 0px 40px;
+    opacity: 0.7;
+    font-size: 15px;
+}
